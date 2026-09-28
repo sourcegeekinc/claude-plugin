@@ -1,8 +1,8 @@
 {
   "name": "sourcegeek",
   "displayName": "SourceGeek",
-  "version": "0.1.9",
-  "description": "Recruiting in Claude: search candidates, companies and jobs, pull LinkedIn data, score and shortlist candidates, and keep sheets and shortlists in your SourceGeek workspace.",
+  "version": "0.1.11",
+  "description": "Recruiting in Claude: search candidates, companies and jobs, look up employee data, score and shortlist candidates, and keep sheets and shortlists in your SourceGeek workspace.",
   "author": {
     "name": "SourceGeek",
     "email": "support@sourcegeek.com",
@@ -16,7 +16,7 @@
     "sourcing",
     "talent-acquisition",
     "candidates",
-    "linkedin",
+    "employee-data",
     "hiring"
   ]
 }

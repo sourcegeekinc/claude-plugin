@@ -7,7 +7,7 @@ description: Builds target company lists for sourcing — which companies to poa
 
 # Talent Mapping
 
-> SourceGeek skill for Claude. Candidate, company and job search, LinkedIn data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
+> SourceGeek skill for Claude. Candidate, company and job search, employee data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
 
 Use this skill when the user asks which companies to source from, wants a target-company map, or needs to find companies similar to a reference employer.
 

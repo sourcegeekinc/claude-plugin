@@ -7,7 +7,7 @@ description: Finds and qualifies recruiting candidates. Use when the user asks f
 
 # Recruiting Search
 
-> SourceGeek skill for Claude. Candidate, company and job search, LinkedIn data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
+> SourceGeek skill for Claude. Candidate, company and job search, employee data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
 
 Use this skill for recruiting workflows where the user wants to find, qualify, compare, or prioritize candidates.
 
@@ -20,7 +20,7 @@ Use this skill for recruiting workflows where the user wants to find, qualify, c
 5. Only run `score_leads` when the user explicitly asks to score, rank, or prioritize candidates — a detailed search prompt is not such a request. Otherwise, offer scoring as the next step and wait. When asked, pass the sheet's artifact id; `score_leads` enriches LinkedIn profiles itself before scoring — the sheet does not need to be pre-enriched.
 6. Separate hard evidence from inferred fit. Never invent candidate history, contact details, or willingness to move.
 7. Recommend the next recruiting action: refine search, enrich profiles, score candidates, or draft outreach.
-8. For LinkedIn-native sourcing — people who engaged with a hiring post or hashtag, a job's hiring team, look-alikes of one strong profile — load the `linkedin-intelligence` skill and use the `linkedin_*` tools.
+8. For LinkedIn-native sourcing — people who engaged with a hiring post or hashtag, a job's hiring team, look-alikes of one strong profile — load the `employee-intelligence` skill and use the `employee_*` tools.
 
 ## Search Query Guidance
 

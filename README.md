@@ -6,11 +6,11 @@ SourceGeek is an AI recruiting assistant. This plugin brings its recruiting data
 
 - **The SourceGeek connector**, a remote MCP server at `https://chat.sourcegeek.com/mcp`. It gives Claude:
   - candidate, company and job-posting search across millions of professional profiles, companies and postings;
-  - LinkedIn profile, company, job and post data (read only);
+  - employee data: profiles, companies, jobs and posts from public LinkedIn data (read only);
   - occupation and skill lookups from the EU ESCO taxonomy;
   - sheets, scoring against a job description, and evidence-backed shortlists, saved in your SourceGeek workspace;
   - your workspace's memory and context (tone of voice, company profile, hiring process).
-- **20 recruiting skills** that teach Claude SourceGeek's workflows: recruiting search, lead scoring, LinkedIn intelligence, candidate deep profiles and dossiers, candidate comparison, company intel, talent mapping and rediscovery, talent signals, role calibration, compensation research, job descriptions and competitive analysis, outreach, interview kits, reference checks, offer closing and candidate status updates.
+- **20 recruiting skills** that teach Claude SourceGeek's workflows: recruiting search, lead scoring, employee intelligence, candidate deep profiles and dossiers, candidate comparison, company intel, talent mapping and rediscovery, talent signals, role calibration, compensation research, job descriptions and competitive analysis, outreach, interview kits, reference checks, offer closing and candidate status updates.
 - **A getting-started skill** that explains credits, where results appear and how to manage the connection.
 
 The skills combine SourceGeek with the other connectors you use in Claude, such as your email, calendar and ATS, and skip any step whose connector you haven't added.
@@ -28,7 +28,7 @@ To use the plugin in Claude Code: `claude plugin marketplace add sourcegeekinc/c
 
 ## Credits and data
 
-- Searches, LinkedIn lookups and scoring use your SourceGeek workspace's credits, as they do in the SourceGeek app. Reading your sheets, memory and workspace context is free.
+- Searches, employee data lookups and scoring use your SourceGeek workspace's credits, as they do in the SourceGeek app. Reading your sheets, memory and workspace context is free.
 - Sheets and shortlists that Claude creates are saved in your workspace under **From Claude**, where your team can open and share them.
 - SourceGeek receives the tool calls Claude makes and their inputs (for example a search query or a job description). It does not receive your Claude conversations. Tool-call audit records keep only the tool name, outcome and timing, for 90 days.
 - You can see and revoke every connection under **Settings → Connected apps** in SourceGeek.

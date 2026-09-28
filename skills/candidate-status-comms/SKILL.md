@@ -7,7 +7,7 @@ description: Drafts communications to candidates already in process — rejectio
 
 # Candidate Status Comms
 
-> SourceGeek skill for Claude. Candidate, company and job search, LinkedIn data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
+> SourceGeek skill for Claude. Candidate, company and job search, employee data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
 
 Use this skill for messages to candidates who are already in the process. For first-contact sourcing messages and cold follow-ups, use outreach-writing instead.
 

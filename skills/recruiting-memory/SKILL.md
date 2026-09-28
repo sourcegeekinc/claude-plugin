@@ -7,7 +7,7 @@ description: Identifies, stores, applies, and manages durable recruiting prefere
 
 # Recruiting Memory
 
-> SourceGeek skill for Claude. Candidate, company and job search, LinkedIn data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
+> SourceGeek skill for Claude. Candidate, company and job search, employee data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
 
 Use this skill when a preference surfaces that should outlive the current chat: the user asks to remember or forget something, asks what SourceGeek remembers, or states a durable rule ("never source from customer companies", "this hiring manager rejects management-heavy profiles").
 

@@ -10,14 +10,14 @@ SourceGeek is a recruiting data and workspace service, reached through the **Sou
 ## What it can do
 
 - Search candidates, companies and job postings (`fast_search_leads`, `fast_search_companies`, `fast_search_jobs`; the `precision_*` variants are slower, cost more and match better).
-- Read LinkedIn profiles, companies, jobs and posts (`get_linkedin_contact_details` and the `linkedin_*` tools). These are read only: SourceGeek never posts, messages or sends connection requests on LinkedIn.
+- Read employee data: public LinkedIn profiles, companies, jobs and posts (`get_employee_contact_details` and the `employee_*` tools). These are read only: SourceGeek never posts, messages or sends connection requests on LinkedIn.
 - Save results as sheets (`create_sheet`), score a sheet against a job description (`score_leads`) and turn a scored sheet into a shortlist (`create_shortlist`).
 - Find the user's earlier sheets and shortlists (`list_artifacts`, `read_artifact`) and hiring-manager feedback on shortlists (`read_shortlist_feedback`).
 - Remember facts and preferences (`remember`, `list_memories`) and read the workspace's context: tone of voice, company profile, hiring process (`list_workspace_context`, `get_workspace_context`).
 
 ## Credits
 
-Searches, LinkedIn lookups, enrichment and scoring spend the SourceGeek workspace's credits; reading sheets, memory and context is free. Don't repeat identical searches. If a tool reports the workspace is out of credits, pass on the top-up link it returns and stop spending calls.
+Searches, employee data lookups, enrichment and scoring spend the SourceGeek workspace's credits; reading sheets, memory and context is free. Don't repeat identical searches. If a tool reports the workspace is out of credits, pass on the top-up link it returns and stop spending calls.
 
 ## Where results go
 

@@ -7,7 +7,7 @@ description: Builds citation-backed company dossiers for pre-pitch prep, candida
 
 # Company Intel
 
-> SourceGeek skill for Claude. Candidate, company and job search, LinkedIn data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
+> SourceGeek skill for Claude. Candidate, company and job search, employee data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
 
 Use this skill when the user needs company context before pitching a client, briefing a candidate on an employer, or preparing for a hiring-manager conversation.
 
@@ -22,7 +22,7 @@ Use this skill when the user needs company context before pitching a client, bri
 
 ## LinkedIn Company Signals
 
-For the company's own LinkedIn facts — headcount and range, follower count, HQ, recent company posts, open job count and postings, the recruiter on a posting, and (when growth or hiring trends matter) the premium insights — use the `linkedin_company_*` and `linkedin_job_*` tools as described in the `linkedin-intelligence` skill. Cite them as "LinkedIn" with the fetch date.
+For the company's own LinkedIn facts — headcount and range, follower count, HQ, recent company posts, open job count and postings, the recruiter on a posting, and (when growth or hiring trends matter) the premium insights — use the `employee_company_*` and `employee_job_*` tools as described in the `employee-intelligence` skill. Cite them as "LinkedIn" with the fetch date.
 
 ## Latency Warning
 

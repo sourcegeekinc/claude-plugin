@@ -6,7 +6,7 @@
     {
       "name": "sourcegeek",
       "source": "./",
-      "description": "Recruiting in Claude: candidate, company and job search, LinkedIn data, scoring and shortlists in your SourceGeek workspace."
+      "description": "Recruiting in Claude: candidate, company and job search, employee data, scoring and shortlists in your SourceGeek workspace."
     }
   ]
 }

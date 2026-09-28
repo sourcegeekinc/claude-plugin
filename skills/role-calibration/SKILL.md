@@ -7,7 +7,7 @@ description: Converts ambiguous hiring requests, job descriptions, and hiring-ma
 
 # Role Calibration
 
-> SourceGeek skill for Claude. Candidate, company and job search, LinkedIn data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
+> SourceGeek skill for Claude. Candidate, company and job search, employee data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
 
 Use this skill when the user asks to define, calibrate, unpack, or turn a role, job description, intake note, Slack message, or hiring request into reusable sourcing criteria. Also use it when the user wants to update an existing role plan from hiring-manager or teammate feedback on a shortlist.
 

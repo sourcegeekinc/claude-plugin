@@ -7,7 +7,7 @@ description: Researches a candidate's public footprint beyond LinkedIn — talks
 
 # Candidate Deep Profile
 
-> SourceGeek skill for Claude. Candidate, company and job search, LinkedIn data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
+> SourceGeek skill for Claude. Candidate, company and job search, employee data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
 
 Use this skill when the user wants to understand what a candidate has written, spoken about, or built publicly — especially to personalize outreach or differentiate senior candidates beyond LinkedIn.
 
@@ -23,8 +23,8 @@ Use this skill when the user wants to understand what a candidate has written, s
 ## Provider Routing
 
 - Prefer your web search and fetch tools for people discovery and reading public content. These are fast (seconds).
-- Use `get_linkedin_contact_details` only when the user explicitly needs LinkedIn profile enrichment, not for broad public-footprint research.
-- For the candidate's LinkedIn activity (posts, comments, reactions, articles, recommendations, interests) use the `linkedin_profile_*` tools via the `linkedin-intelligence` skill — they are the source for what the person actually says on LinkedIn.
+- Use `get_employee_contact_details` only when the user explicitly needs LinkedIn profile enrichment, not for broad public-footprint research.
+- For the candidate's LinkedIn activity (posts, comments, reactions, articles, recommendations, interests) use the `employee_profile_*` tools via the `employee-intelligence` skill — they are the source for what the person actually says on LinkedIn.
 - Do not use in-depth web research, web research, or `find_all_entities` for single-candidate profiles — they take minutes and are overkill.
 
 ## Evidence Discipline

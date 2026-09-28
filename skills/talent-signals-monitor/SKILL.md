@@ -7,7 +7,7 @@ description: Surfaces sourcing opportunities from recent layoffs, funding rounds
 
 # Talent Signals Monitor
 
-> SourceGeek skill for Claude. Candidate, company and job search, LinkedIn data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
+> SourceGeek skill for Claude. Candidate, company and job search, employee data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
 
 Use this skill when the user asks about recent layoffs, funding events, leadership changes, or other news that opens sourcing windows. It runs on demand; for a standing watch, set it up as a recurring automation (see Recurring Monitoring).
 
@@ -21,7 +21,7 @@ Use this skill when the user asks about recent layoffs, funding events, leadersh
 
 ## LinkedIn Signals
 
-For LinkedIn-native signals use the `linkedin_*` tools (see the `linkedin-intelligence` skill): `linkedin_search_posts` / `linkedin_search_posts_by_hashtag_v2` for #opentowork, layoff and hiring posts, `linkedin_post_reactions` / `linkedin_post_comments` to turn a viral post into a lead list, `linkedin_company_jobs_count` and `linkedin_company_insights` for hiring-intensity and headcount trends.
+For LinkedIn-native signals use the `employee_*` tools (see the `employee-intelligence` skill): `employee_search_posts` / `employee_search_posts_by_hashtag_v2` for #opentowork, layoff and hiring posts, `employee_post_reactions` / `employee_post_comments` to turn a viral post into a lead list, `employee_company_jobs_count` and `employee_company_insights` for hiring-intensity and headcount trends.
 
 ## Latency Warning
 

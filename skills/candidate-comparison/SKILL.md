@@ -7,7 +7,7 @@ description: Compares 2–5 selected candidates side by side against the role ru
 
 # Candidate Comparison
 
-> SourceGeek skill for Claude. Candidate, company and job search, LinkedIn data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
+> SourceGeek skill for Claude. Candidate, company and job search, employee data, sheets, scoring, shortlists and workspace memory come from the **SourceGeek connector**. Web research, documents, email, calendar and ATS actions use your own tools and the user's other connectors in Claude; skip any step whose connector isn't available and say so.
 
 Use this skill when the user selects specific candidates and asks to compare them, choose between them, or decide who to advance. For scoring or ranking a whole sheet use lead-scoring; for hiring-manager one-pagers use candidate-dossier.
 
