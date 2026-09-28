@@ -1,0 +1,22 @@
+{
+  "name": "sourcegeek",
+  "displayName": "SourceGeek",
+  "version": "0.1.9",
+  "description": "Recruiting in Claude: search candidates, companies and jobs, pull LinkedIn data, score and shortlist candidates, and keep sheets and shortlists in your SourceGeek workspace.",
+  "author": {
+    "name": "SourceGeek",
+    "email": "support@sourcegeek.com",
+    "url": "https://sourcegeek.com"
+  },
+  "homepage": "https://support.sourcegeek.com/docs/claude",
+  "repository": "https://github.com/sourcegeekinc/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "recruiting",
+    "sourcing",
+    "talent-acquisition",
+    "candidates",
+    "linkedin",
+    "hiring"
+  ]
+}

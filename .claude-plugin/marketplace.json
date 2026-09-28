@@ -1,0 +1,12 @@
+{
+  "name": "sourcegeek",
+  "description": "SourceGeek's plugin for Claude.",
+  "owner": { "name": "SourceGeek", "email": "support@sourcegeek.com" },
+  "plugins": [
+    {
+      "name": "sourcegeek",
+      "source": "./",
+      "description": "Recruiting in Claude: candidate, company and job search, LinkedIn data, scoring and shortlists in your SourceGeek workspace."
+    }
+  ]
+}

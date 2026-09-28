@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sourcegeek": {
+      "type": "http",
+      "url": "https://chat.sourcegeek.com/mcp"
+    }
+  }
+}
