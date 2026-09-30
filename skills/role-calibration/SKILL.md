@@ -59,6 +59,8 @@ When the Intelligence Group connector is connected, ground the overconstraint an
 
 If the connector is not connected, write the warnings from search-side reasoning as usual and mark them as estimates.
 
+For Dutch roles, CBS open data (free, always available) adds official context either way: `cbs_search_tables` for "vacatures beroep" or "openstaande vacatures", then `cbs_table_info` and `cbs_query_data` for the latest vacancy counts of the role's occupation group or sector in its region. Cite the table as "CBS StatLine, table <id>" and note that occupation groups are broader than the job title.
+
 ## Calibration Guidance
 
 Separate confirmed requirements from inferred assumptions. Never invent compensation, visa support, relocation policy, willingness to hire remote, interview process details, or company policy.

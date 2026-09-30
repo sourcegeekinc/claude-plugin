@@ -29,6 +29,12 @@ When the Intelligence Group connector is connected, it is the strongest evidence
 
 Report these figures as their own source ("Intelligence Group, ISCO <code>, <country/region>"), and keep them distinct from advertised pay and from web research estimates. Note the occupation group you resolved to, since it is broader than the job title. Coverage varies by country: scarcity is Netherlands-only, and the tools list any dataset that came back empty. Skip silently when the connector is not connected.
 
+## Dutch Official Statistics (CBS)
+
+For roles in the Netherlands, back demand and wage claims with CBS (Statistics Netherlands) StatLine figures — free, no connector needed. Find a table with `cbs_search_tables` using short Dutch keywords (e.g. "vacatures beroep", "openstaande vacatures regio", "uurloon beroep", "werkzame beroepsbevolking beroep"), read its structure with `cbs_table_info` (pass `categorySearch` to find the occupation, sector or region key), then pull the latest figures with `cbs_query_data` and `latestPeriods`. Vacancies per occupation group (BRC 2014) or sector (SBI 2008) per region show demand; employed labour force per occupation hints at supply.
+
+CBS reports occupation groups and sectors, not job titles: name the group you used, respect each topic's unit ("x 1000" means thousands), say when figures are provisional ("voorlopig"), and cite the table's StatLine link as "CBS StatLine, table <id>". Keep CBS figures distinct from research estimates and advertised pay.
+
 ## Latency Warning
 
 Before calling in-depth web research, warn the user it takes several minutes and surface the run id if its time budget is exceeded. web research completes synchronously in under a minute.
